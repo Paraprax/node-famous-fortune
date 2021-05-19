@@ -34,8 +34,8 @@ const fortuneMessage = [];
 
 //function for generating a random index number within the length of any given array:
 const indexGenerator = (array) => {
-  let randomIndex = Math.floor(Math.random() * [array.length + 1]);
-  console.log(array);
+  let randomIndex = Math.floor(Math.random() * [array.length]);
+  console.log(randomIndex);
   return randomIndex;
 };
 
