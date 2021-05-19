@@ -1,13 +1,33 @@
 //one phrase from each of these arrays will be used to make up the fortune message:
-const phraseArray1 = ["Starring", "barring", "zarring", "marring", "pharing"];
-const phraseArray2 = ["In a popular"];
+const phraseArray1 = [
+  "Dropping an F-bomb",
+  "Coining an iconic Gen-Z catchphrase",
+  "Learning you're now a Dogecoin billionaire",
+  "Being called out by a Taylor Swift breakup song",
+  "Winning a humiliating bike-mounted Quidditch game",
+  "Pitching an acclaimed Frasier revival",
+  "Punching out Conor McGregor",
+  "Inventing a trendy new cocktail",
+];
+const phraseArray2 = [
+  "by accident",
+  "in front of an awestruck Obama",
+  "as a prank",
+  "while on horseback",
+  "illegally",
+  "in the background",
+  "in your pajamas",
+  "during a meltdown",
+];
 const phraseArray3 = [
-  "on live television",
+  "at the Super Bowl halftime show",
   "in a viral TikTok",
-  "on YouTube",
+  "on your buddy's YouTube channel",
   "on the front page of Reddit",
-  "on Saturday Night Live",
-  "on Twitter",
+  "during Saturday Night Live",
+  "at the Olympics",
+  "on Jimmy Fallon",
+  "in the middle of Times Square",
 ];
 
 const fortuneMessage = [];
