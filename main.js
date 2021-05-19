@@ -1,6 +1,14 @@
 const phraseArray1 = ["Starring"];
 const phraseArray2 = ["In a popular"];
-const phraseArray3 = ["TikTok"];
+const phraseArray3 = [
+  "on live television",
+  "in a viral TikTok",
+  "on YouTube",
+  "on the front page of Reddit",
+  "on Saturday Night Live",
+  "on Twitter",
+];
+
 const fortuneMessage = [];
 
 const messageBuilder = (array1, array2, array3) => {
