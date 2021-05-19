@@ -30,8 +30,6 @@ const phraseArray3 = [
   "in the middle of Times Square",
 ];
 
-const fortuneMessage = [];
-
 //function for generating a random index number within the length of any given array:
 const indexGenerator = (array) => {
   let randomIndex = Math.floor(Math.random() * [array.length]);
