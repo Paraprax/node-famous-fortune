@@ -14,7 +14,7 @@ const phraseArray2 = [
   "in front of an awestruck Obama",
   "as a prank",
   "while on horseback",
-  "illegally",
+  "out of nowhere",
   "in the background",
   "in your pajamas",
   "during a meltdown",
