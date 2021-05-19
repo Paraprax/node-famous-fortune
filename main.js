@@ -11,10 +11,15 @@ const phraseArray3 = [
 
 const fortuneMessage = [];
 
+const indexGenerator = (array) => {
+  let randomIndex = Math.floor(Math.random() * [array.length + 1]);
+  return randomIndex;
+};
+
 const messageBuilder = (array1, array2, array3) => {
-  let index1 = Math.floor(Math.random() * [array1.length + 1]);
-  let index2 = Math.floor(Math.random() * [array2.length + 1]);
-  let index3 = Math.floor(Math.random() * [array2.length + 1]);
+  let index1 = indexGenerator(array1);
+  let index2 = indexGenerator(array2);
+  let index3 = indexGenerator(array3);
 
   console.log(index1);
   console.log(index2);
